@@ -23,9 +23,16 @@ celle du prof (Ludovic Evrard) + quelques habitudes de codage résiduelles :
  - utilisation de la class "row" avec pour enfants les col-numérodecolonne col-md-numérodecolonne et col-lg-numérodecolonne pour les différents device smartphone, tablette (md) et PC (lg) sous le principe de l'encapsulation. 
  Nous travaillons en MOBILE FIRST ave un système de grille "empruntée" à bootstrap principe du conteneur les row et les col et du contenant, les éléments (nav).
  - respect de l'indentation
- - utilisation de Github pour mettre son site sur un serveur
- - utilisation de sass via Node.js
+ - utilisation de Github pour mettre son site sur un serveur ce qui permet de travailler au départ de n'importe quel ordinateur
+ - utilisation de sass via Node.js : ouvrir le terminal de node.
+    - Si node est bien installé vous devez avoir le numéro de version qui s’affiche. Si ce n’est pas le cas vous devez installer node.js: https://nodejs.org/en/download/  N’oubliez pas de fermer tous vos terminaux avant de relancer la commande.
+    cd d: pour passer d'un répertoire à l'autre : copier le chemin qui va à votre dossier. 
+    - Puis installer node-sass via npm install -g node-sass
+    - dans l'arborescence de notre site ajouter le dossier scss et son fichier screen.scss
+    - Entrer la commande node-sass scss/screen.scss css/screen.css  pour convertir  le sass en css
+    - Entrer la commande node-sass scss/screen.scss css/screen.css --watch pour l'écoute-> observe les changements effectués sur le projet.
 
 
 */
 
+ 

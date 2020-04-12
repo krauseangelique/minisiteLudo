@@ -1,0 +1,34 @@
+
+ /* Balises Génériques */
+
+/*  == Mobile First == */
+*{
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url('images/bg03.jpg');
+    background-color: map-get($colors , color2);
+    color: map-get($colors , color6);
+    font-size: $size-theme;
+    font-family: $family-theme;
+
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    line-height: $line_height;
+     
+}
+
+/* CLASSES */
+
+.wrap{
+    max-width: 1020px;
+    margin: 0 auto;
+    border: 2px solid green;  // à enlever quand je rends le travail
+}

@@ -1,0 +1,16 @@
+/* +++++++++++++++++++++++++ */
+    /* STYLES GENERAUX */
+/* ++++++++++++++++++++++++ */
+
+// forcer l'encodage
+@charset 'utf-8';
+
+// lier les dossiers/fichiers base, layout, modules, tools  au fichier screen.scss
+@import 'bases/_bases.scss', 'bases/_variables.scss' , 'layouts/_layouts.scss' ;
+
+
+// lier la Google Font:
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+
+

@@ -1,0 +1,99 @@
+
+/*  == Mobile First == */
+
+/* CLASSES */
+.wrap{
+    max-width: 1020px;
+    margin: 0 auto;
+    border: 2px solid green;  // à enlever quand je rends le travail
+}
+.l-main-header{
+    display: flex;
+    flex-direction: row;
+	border: 1px solid yellow; // à enlever quand je rends le travail
+    //background-color:map-get($colors , color2);
+     //#fdc501;
+	background-color: black;
+
+	img{
+		
+		background-color:map-get($colors , color2);
+	}
+}
+.l-header > div{
+    width: 25%;
+    padding: 10px;
+    min-height: 5rem;
+	border: 1px solid red;  // à enlever quand je rends le travail
+	background-color:map-get($colors , color2); //#fdc501 - jaune;
+}
+.pull{
+    margin-right: auto;
+}
+.push{
+    margin-left: auto;
+}
+
+/*Menu - mobile*/
+
+.l-main-nav{
+	display: none;
+	background-color: map-get($colors , header); // grey	
+}
+
+.l-main-nav ul{
+	margin: 0;
+	padding: 0;	
+	
+}
+
+.l-main-nav li{
+	list-style: none;
+	text-transform: uppercase;
+	padding-right: 1rem;
+} 
+
+.l-main-nav a{
+	text-decoration: none;
+	color: map-get($written , color2); //jaune
+	display: block;
+	padding: 0.5rem 1rem;
+}
+
+.l-main-nav a:hover{
+	background-color: olive;
+}
+
+.l-main-nav.is-active{
+	display: block;
+}
+
+.navigationsecondaire{
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	
+}
+
+
+/* tablette et PC*/
+
+@media screen and (min-width: map-get($sizes , md)){
+
+	.l-main-nav{
+		display: inline-block;
+		width: 100%;
+		text-align: right;
+	}	
+
+	.l-main-nav li{
+		display: inline-block;
+	} 
+
+	.l-main-hamburger{
+		display: none;
+	}
+
+}
+
+

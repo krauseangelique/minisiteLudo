@@ -23,6 +23,8 @@ celle du prof (Ludovic Evrard) + quelques habitudes de codage résiduelles :
  - utilisation de la class "row" avec pour enfants les col-numérodecolonne col-md-numérodecolonne et col-lg-numérodecolonne pour les différents device smartphone, tablette (md) et PC (lg) sous le principe de l'encapsulation. 
  Nous travaillons en MOBILE FIRST ave un système de grille "empruntée" à bootstrap principe du conteneur les row et les col et du contenant, les éléments (nav).
  - respect de l'indentation
+ - utilisation de Github pour mettre son site sur un serveur
+ - utilisation de sass via Node.js
 
 
 */

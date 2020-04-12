@@ -1,0 +1,29 @@
+/* -- CONVENTION DE NOMMAGE --
+
+OOCSS : préférer dans les seleteurs css, les classs plutôt que des identifiants + factorisation des propriétés visuelles répétées.
+
+    <button class="btn small-btn">search</button>
+    <button class="btn large-btn">submit</button>
+
+BEM : Block, Element, Modifier. => arborescence de blocs et d'éléments.
+
+bloc de navigation, bloc de recherche.
+élement du bloc de recherche : input et button.
+
+En tant que « brique de construction », un bloc est réutilisable dans d'autres blocs ou dans des éléments.
+
+Un modificateur est une propriété qui sert à créer des variantes, pour faire des modifications minimes comme changer des couleurs. Il existe des modificateurs de blocs et des modificateurs d'éléments.
+https://www.alsacreations.com/article/lire/1641-Bonnes-pratiques-en-CSS--BEM-et-OOCSS.html
+
+PERSONNELLE : 
+celle du prof (Ludovic Evrard) + quelques habitudes de codage résiduelles :
+ - utilisation des balises sémantiques html5 : header, aside, articles, footer? etc.
+ - pour le corps de texte utilisation du préfixe l- pour le layout et m- pour les modules
+ - utilisation de la class "wrap" pour déterminer la largeur maximum fixe du layout du site
+ - utilisation de la class "row" avec pour enfants les col-numérodecolonne col-md-numérodecolonne et col-lg-numérodecolonne pour les différents device smartphone, tablette (md) et PC (lg) sous le principe de l'encapsulation. 
+ Nous travaillons en MOBILE FIRST ave un système de grille "empruntée" à bootstrap principe du conteneur les row et les col et du contenant, les éléments (nav).
+ - respect de l'indentation
+
+
+*/
+

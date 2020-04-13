@@ -13,10 +13,10 @@ html{
 
 body{
     background-image: url('images/bg03.jpg');
-    background-color: map-get($colors , color2);
-    color: map-get($colors , color6);
-    font-size: $size-theme;
-    font-family: $family-theme;
+    background-color: map-get($colors, color2);
+    color: map-get($colors, color6);
+    font-size: $font-size-theme;
+    font-family: map-get($font-family, font1);
 
     padding: 0;
     max-width: 1200px;

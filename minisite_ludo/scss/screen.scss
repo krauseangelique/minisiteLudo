@@ -6,7 +6,7 @@
 @charset 'utf-8';
 
 // lier les dossiers/fichiers base, layout, modules, tools  au fichier screen.scss
-@import 'bases/_bases.scss', 'bases/_variables.scss' , 'layouts/_layouts.scss' ;
+@import './bases/_bases.scss', './bases/_variables.scss' , './layouts/_layouts.scss' ;
 
 
 // lier la Google Font:
